@@ -1,0 +1,78 @@
+@import url(../../../styles.scss);
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+mat-card {
+  width: 100%;
+  /* padding: 50px; */
+  margin: 5%;
+}
+
+.span-texto {
+  color: #f44336;
+  margin-bottom: 10px;
+}
+
+.div-mensagem-erro {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.div-mensagem-erro-resultado {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.div-mensagem-erro-senha {
+  display: flex;
+  justify-content: flex-start;
+}
+
+p {
+  color: #f44336;
+}
+
+li {
+  margin-left: 36px;
+  color: #f44336;
+}
+
+.div-geral-button {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  width: 15%;
+  padding: 3px;
+}
+
+button:hover {
+  background-color: rgb(38, 71, 178);
+  transition: 0.2s;
+}
+
+@media screen and (max-width: 600px) {
+  button {
+    width: 100%;
+  }
+
+  .div-geral-button {
+    justify-self: center;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+}
